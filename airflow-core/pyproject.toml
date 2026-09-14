@@ -323,6 +323,7 @@ mypy = [
 
 [tool.uv]
 required-version = ">=0.11.8"
+exclude-newer = "7 days"
 
 [tool.uv.sources]
 apache-airflow-core = {workspace = true}
